@@ -2,11 +2,10 @@
 
 namespace Kata.Advanced
 {
-    public class BusinessRepository : IRepository<BusinessEntity>
+    public class GameRepository : IRepository<Game>
     {
-        public int Add(BusinessEntity entity)
+        public int Add(Game entity)
         {
-            throw new NotImplementedException();
         }
 
         public bool Delete(int id)
@@ -14,12 +13,12 @@ namespace Kata.Advanced
             throw new NotImplementedException();
         }
 
-        public BusinessEntity Get(int id)
+        public Game Get(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(int id, BusinessEntity Entity)
+        public void Update(int id, Game Entity)
         {
             throw new NotImplementedException();
         }

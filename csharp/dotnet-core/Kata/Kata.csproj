@@ -7,4 +7,15 @@
     <RootNamespace>Kata</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Advanced\GameRepository.cs" />
+    <None Include="Advanced\GameRepository.cs" />
+    <Compile Remove="Advanced\GameService.cs" />
+    <None Include="Advanced\GameService.cs" />
+    <Compile Remove="Advanced\GameController.cs" />
+    <None Include="Advanced\GameController.cs" />
+    <Compile Remove="Advanced\FrameService.cs" />
+    <None Include="Advanced\FrameService.cs" />
+  </ItemGroup>
+
 </Project>
